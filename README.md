@@ -21,7 +21,7 @@ https://birthday-lucky-finder.netlify.app/
 
 # Preview 
 
-![Web-app-screenshot](/src/img/is your birthday lucky.gif)
+![Web-app-screenshot](./src/img/is your birthday lucky.gif)
 
 ---
 
