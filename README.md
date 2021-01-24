@@ -7,10 +7,8 @@ This is a "FUN" web-app built with ReactJS, that checks if your birthday is luck
 # DEMO 
 
 <p align="center" width="100%">
-    <img width="33%" src="demo.gif"> 
+    <img width="50%" src="demo.gif"> 
 </p>
-
-![is your birthday lucky?](demo.gif)
 
 ---
 
