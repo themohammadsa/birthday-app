@@ -2,7 +2,9 @@ import "./styles.css";
 import React, { useState } from "react";
 
 export default function App() {
-  const [gif, setGif] = useState("");
+  const [gif, setGif] = useState(
+    "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  );
   const [birthday, setBirthday] = useState("");
   const [lucky, setLucky] = useState("");
   const [result, setResult] = useState("");
@@ -14,7 +16,9 @@ export default function App() {
 
   function reset() {
     setBirthday("");
-    setGif("");
+    setGif(
+      "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    );
     setLucky("");
     setResult("");
   }
@@ -26,9 +30,9 @@ export default function App() {
     var year = parseInt(DOB[0]);
 
     total = date + month + year;
-    console.log(total);
+    luckyNum = parseInt(lucky);
 
-    if (total % lucky === 0) {
+    if (total % luckyNum == 0) {
       setGif("happy.png");
       setResult("Your birthday is LUCKY!");
     } else {
@@ -43,14 +47,14 @@ export default function App() {
           <h1>Is your birthday lucky?</h1>
         </header>
         <section className="data">
-          <h4> Enter your birthday </h4>
+          <h4> Enter your birthday: </h4>
           <input
             type="date"
             className="input-box"
             onChange={(event) => setBirthday(event.target.value)}
           />
 
-          <h4> Enter your lucky number </h4>
+          <h4> Enter your lucky number: </h4>
           <input
             className="input-box"
             onChange={(event) => setLucky(event.target.value)}
