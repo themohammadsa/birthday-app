@@ -4,6 +4,16 @@ This is a "FUN" web-app built with ReactJS, that checks if your birthday is luck
 
 ---
 
+# DEMO 
+
+<p align="center" width="100%">
+    <img width="33%" src="demo.gif"> 
+</p>
+
+![is your birthday lucky?](demo.gif)
+
+---
+
 ## Description 
 
 1. Enter your Date of Birth.
@@ -15,13 +25,7 @@ This is a "FUN" web-app built with ReactJS, that checks if your birthday is luck
 Disclaimer: This website doesn't store any data and/or information given by the user. 
 
 Here's the link to website:
-
 https://birthday-lucky-finder.netlify.app/
----
-
-# Preview 
-
-![is your birthday lucky?](demo.gif)
 
 ---
 
